@@ -2,17 +2,121 @@
 <html lang="id">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Projek Amelia</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+body{
+background:linear-gradient(135deg,#0b0b17,#17172b,#2b1055);
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+color:white;
+}
+
+.card{
+width:350px;
+background:rgba(255,255,255,.05);
+backdrop-filter:blur(15px);
+border:1px solid rgba(255,255,255,.1);
+border-radius:25px;
+padding:30px;
+text-align:center;
+box-shadow:0 0 25px rgba(153,0,255,.35);
+}
+
+.avatar{
+width:120px;
+height:120px;
+border-radius:50%;
+margin:auto;
+overflow:hidden;
+border:4px solid #8b5cf6;
+box-shadow:0 0 20px #8b5cf6;
+}
+
+.avatar img{
+width:100%;
+height:100%;
+object-fit:cover;
+}
+
+h1{
+margin-top:20px;
+font-size:30px;
+}
+
+p{
+color:#d6d6d6;
+margin-top:8px;
+margin-bottom:25px;
+}
+
+.link{
+display:block;
+text-decoration:none;
+background:#8b5cf6;
+color:white;
+padding:15px;
+margin:12px 0;
+border-radius:15px;
+font-size:18px;
+font-weight:bold;
+transition:.3s;
+}
+
+.link:hover{
+transform:scale(1.05);
+background:#a855f7;
+box-shadow:0 0 15px #a855f7;
+}
+
+.footer{
+margin-top:25px;
+font-size:13px;
+color:#aaa;
+}
+</style>
+
 </head>
+
 <body>
 
-<h1>Projek Wemmbu oleh Made Amelia</h1>
+<div class="card">
 
-<p>welcome to my website!</p>
+<div class="avatar">
+<img src="https://avatars.githubusercontent.com/ameliaackerman" alt="">
+</div>
 
-<a href="https://drive.google.com/file/d/1qj2c2ygtrz8eMvCHgithbSIIrZjwhGW6/view?usp=sharing">📄 Buka PDF</a><br><br>
-  
-<a href="https://youtube.com/@melisaamelia2509?si=8HR2F-p26HqOMOWf"> YouTube</a>
+<h1>Projek Amelia</h1>
+
+<p>Minecraft • Wemmbu Project • Creator</p>
+
+<a class="link" href="https://drive.google.com/file/d/1qj2c2ygtrz8eMvCHgithbSIIrZjwhGW6/view?usp=sharing">
+📄 MY PROJECT PDF
+</a>
+
+<a class="link" href="https://youtube.com/@melisaamelia2509?si=8HR2F-p26HqOMOWf">
+▶ YouTube
+</a>
+
+<a class="link" href="https://github.com/ameliaackerman">
+🐙 GitHub
+</a>
+
+<div class="footer">
+Made with ❤️ by Amelia
+</div>
+
+</div>
 
 </body>
-</html>
+  </html>
