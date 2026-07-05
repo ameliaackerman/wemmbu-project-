@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -14,18 +15,18 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Poppins,sans-serif;
+font-family:'Poppins',sans-serif;
 }
 
 body{
 
-background:url("https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1400&q=80") center center/cover no-repeat fixed;
-
-min-height:100vh;
+background:url("BACKGROUND_MINECRAFT.jpg") center center/cover no-repeat fixed;
 
 display:flex;
 justify-content:center;
 align-items:center;
+
+min-height:100vh;
 
 padding:20px;
 
@@ -33,24 +34,24 @@ padding:20px;
 
 .card{
 
-width:360px;
+width:370px;
 max-width:100%;
-
-background:rgba(20,20,20,.45);
-
-backdrop-filter:blur(10px);
-
-border-radius:28px;
 
 padding:35px;
 
-text-align:center;
+background:rgba(30,30,30,.45);
 
-box-shadow:0 0 35px rgba(0,0,0,.35);
+backdrop-filter:blur(12px);
+
+border-radius:28px;
+
+box-shadow:0 20px 50px rgba(0,0,0,.45);
+
+text-align:center;
 
 }
 
-img{
+.profile{
 
 width:150px;
 height:150px;
@@ -58,6 +59,8 @@ height:150px;
 border-radius:50%;
 
 border:5px solid white;
+
+object-fit:cover;
 
 margin-bottom:20px;
 
@@ -67,49 +70,51 @@ h1{
 
 color:white;
 
-font-size:40px;
+font-size:45px;
 
 }
 
-p{
+.desc{
 
-color:#dddddd;
+color:#eeeeee;
 
-margin-top:8px;
+margin-top:10px;
 
 margin-bottom:35px;
 
 }
 
-a.button{
+.button{
 
 display:block;
 
 text-decoration:none;
 
-background:#3fa34d;
-
-color:white;
-
-font-size:20px;
-
-font-weight:bold;
-
 padding:18px;
-
-border-radius:18px;
 
 margin:15px 0;
 
+background:#44b549;
+
+color:white;
+
+font-size:22px;
+
+font-weight:bold;
+
+border-radius:18px;
+
 transition:.3s;
+
+box-shadow:0 10px 20px rgba(0,0,0,.25);
 
 }
 
-a.button:hover{
+.button:hover{
 
-transform:scale(1.04);
+transform:translateY(-4px);
 
-background:#4dc55c;
+background:#54cb59;
 
 }
 
@@ -121,8 +126,6 @@ color:white;
 
 opacity:.8;
 
-font-size:15px;
-
 }
 
 </style>
@@ -133,26 +136,42 @@ font-size:15px;
 
 <div class="card">
 
-<img src="https://i.imgur.com/1Q9Z1Zm.png">
+<img class="profile" src="FOTO_PROFIL_KAMU.png">
 
 <h1>Projek Amelia</h1>
 
-<p>Minecraft • Wemmbu Project • Creator</p>
+<p class="desc">
+Minecraft • Wemmbu Project • Creator
+</p>
 
-<a class="button" href="LINK_PDF_KAMU">
+<a class="button"
+href="https://drive.google.com/file/d/1qj2c2ygtrz8eMvCHgithbSIIrZjwhGW6/view?usp=sharing"
+target="_blank">
+
 📄 MY PROJECT PDF
+
 </a>
 
-<a class="button" href="https://youtube.com/@melisaamelia2509?si=8HR2F-p26HqOMOWf">
+<a class="button"
+href="https://youtube.com/@melisaamelia2509?si=8HR2F-p26HqOMOWf"
+target="_blank">
+
 ▶ YouTube
+
 </a>
 
-<a class="button" href="LINK_GITHUB_KAMU">
+<a class="button"
+href="https://github.com/ameliaackerman"
+target="_blank">
+
 🐙 GitHub
+
 </a>
 
 <div class="footer">
+
 Made with ❤️ by Amelia
+
 </div>
 
 </div>
